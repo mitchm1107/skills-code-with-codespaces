@@ -1,0 +1,7 @@
+{
+  "name": "Basic Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:debian"
+}rm .git/hooks/post-checkout
+rm .git/hooks/post-commit
+rm .git/hooks/post-merge
+rm .git/hooks/pre-push
